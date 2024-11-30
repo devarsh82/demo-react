@@ -23,7 +23,7 @@ pipeline{
     }
     stage('deploy the application'){
       steps{
-        sh 'cd build && cp -r* /var/www/html/'
+        sh 'cd build && cp -r * /var/www/html/'
       }
     }
   }
